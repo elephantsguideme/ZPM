@@ -118,6 +118,12 @@
   <ItemGroup>
     <ClCompile Include="..\source\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\res.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\source\res.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

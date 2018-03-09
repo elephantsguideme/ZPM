@@ -1,13 +1,26 @@
 #include <Windows.h>
 #include <stdio.h>
+#include "res.h"
 
-
+INT_PTR CALLBACK DialogProc(HWND hwndDig, UINT uMsg, WPARAM wParam, LPARAM)
+{
+  switch (uMsg)
+  {
+  case WM_CLOSE:
+    DestroyWindow(hwndDig);
+    PostQuitMessage(0);
+    return TRUE;
+  }
+  return FALSE;
+}
 
   int WINAPI WinMain(HINSTANCE histance, HINSTANCE hPrevinstance, PSTR szCmdLine, int iCmdShow)
   {
+    HWND hwndMainWindow = CreateDialog(histance, MAKEINTRESOURCE(IDD_MAINVIEW), NULL, DialogProc);
+    ShowWindow(hwndMainWindow, iCmdShow);
+
+
     char buffer[50];
-
-
 
     int t = 1, iRetKey;
     int n, x = 1, y = 1000;

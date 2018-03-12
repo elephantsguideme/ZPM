@@ -1,8 +1,12 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by Resource.rc
-#define IDD_MAINVIEW                    9
+// Used by res.rc
+//
+#define IDD_MAINVIEW                    109
 #define IDD_FORMVIEW                    101
+#define IDC_BUTTON1                     1001
+#define IDC_BUTTON2                     1002
+#define IDC_BUTTON3                     1003
 
 // Next default values for new objects
 // 
@@ -10,7 +14,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        101
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1001
+#define _APS_NEXT_CONTROL_VALUE         1004
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

@@ -124,6 +124,10 @@
   <ItemGroup>
     <ResourceCompile Include="..\source\res.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\source\bitmapa.bmp" />
+    <Image Include="bitmapa.bmp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -29,4 +29,12 @@
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmapa.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\source\bitmapa.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
